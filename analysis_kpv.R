@@ -1,3 +1,4 @@
+# CC-BY Hanna Thiele & Niko Partanen 2015
 # R package FRelan can be installed with the following commands
 # library(devtools)
 # install_github(repo = "FRelan", username = "langdoc")
