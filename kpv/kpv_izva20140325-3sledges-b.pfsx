@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="1.1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
+    <prefList key="MultiTierViewer.TierOrder">
+        <String>part</String>
+        <String>note(part)</String>
+        <String>geo</String>
+        <String>note(geo)</String>
+        <String>bio</String>
+        <String>note(bio)</String>
+        <String>comment</String>
+        <String>ref@VPC-M-1993</String>
+        <String>phonet-UPA@VPC-M-1993</String>
+        <String>phonol-CYR@VPC-M-1993</String>
+        <String>note(ref)@VPC-M-1993</String>
+        <String>orth@VPC-M-1993</String>
+        <String>word@VPC-M-1993</String>
+        <String>lemma@VPC-M-1993</String>
+        <String>morph@VPC-M-1993</String>
+        <String>pos@VPC-M-1993</String>
+        <String>lg(word)@VPC-M-1993</String>
+        <String>note(word)@VPC-M-1993</String>
+        <String>ft-eng@VPC-M-1993</String>
+        <String>ft-rus@VPC-M-1993</String>
+        <String>ft-ling@VPC-M-1993</String>
+        <String>ft-fin@VPC-M-1993</String>
+        <String>note(orth)@VPC-M-1993</String>
+        <String>lg(orth)@VPC-M-1993</String>
+        <String>phonet-IPA@VPC-M-1993</String>
+        <String>ref@NTP-M-1986</String>
+        <String>phonet-UPA@NTP-M-1986</String>
+        <String>phonol-CYR@NTP-M-1986</String>
+        <String>note(ref)@NTP-M-1986</String>
+        <String>orth@NTP-M-1986</String>
+        <String>word@NTP-M-1986</String>
+        <String>lemma@NTP-M-1986</String>
+        <String>morph@NTP-M-1986</String>
+        <String>pos@NTP-M-1986</String>
+        <String>lg(word)@NTP-M-1986</String>
+        <String>note(word)@NTP-M-1986</String>
+        <String>ft-eng@NTP-M-1986</String>
+        <String>ft-rus@NTP-M-1986</String>
+        <String>ft-ling@NTP-M-1986</String>
+        <String>ft-fin@NTP-M-1986</String>
+        <String>note(orth)@NTP-M-1986</String>
+        <String>lg(orth)@NTP-M-1986</String>
+        <String>phonet-IPA@NTP-M-1986</String>
+        <String>ref@VPR-M-1948</String>
+        <String>phonet-UPA@VPR-M-1948</String>
+        <String>phonol-CYR@VPR-M-1948</String>
+        <String>note(ref)@VPR-M-1948</String>
+        <String>orth@VPR-M-1948</String>
+        <String>GRAIDorth@VPR-M-1948</String>
+        <String>GRAIDword@VPR-M-1948</String>
+        <String>GRAIDform@VPR-M-1948</String>
+        <String>GRAIDfunct@VPR-M-1948</String>
+        <String>GRAIDw-comment@VPR-M-1948</String>
+        <String>GRAIDcomment</String>
+        <String>word@VPR-M-1948</String>
+        <String>lemma@VPR-M-1948</String>
+        <String>morph@VPR-M-1948</String>
+        <String>pos@VPR-M-1948</String>
+        <String>lg(word)@VPR-M-1948</String>
+        <String>note(word)@VPR-M-1948</String>
+        <String>ft-eng@VPR-M-1948</String>
+        <String>ft-rus@VPR-M-1948</String>
+        <String>ft-ling@VPR-M-1948</String>
+        <String>ft-fin@VPR-M-1948</String>
+        <String>note(orth)@VPR-M-1948</String>
+        <String>lg(orth)@VPR-M-1948</String>
+        <String>phonet-IPA@VPR-M-1948</String>
+        <String>ref@PVR-M-1978</String>
+        <String>phonet-UPA@PVR-M-1978</String>
+        <String>phonol-CYR@PVR-M-1978</String>
+        <String>note(ref)@PVR-M-1978</String>
+        <String>orth@PVR-M-1978</String>
+        <String>word@PVR-M-1978</String>
+        <String>lemma@PVR-M-1978</String>
+        <String>morph@PVR-M-1978</String>
+        <String>pos@PVR-M-1978</String>
+        <String>lg(word)@PVR-M-1978</String>
+        <String>note(word)@PVR-M-1978</String>
+        <String>ft-eng@PVR-M-1978</String>
+        <String>ft-rus@PVR-M-1978</String>
+        <String>ft-ling@PVR-M-1978</String>
+        <String>ft-fin@PVR-M-1978</String>
+        <String>note(orth)@PVR-M-1978</String>
+        <String>lg(orth)@PVR-M-1978</String>
+        <String>phonet-IPA@PVR-M-1978</String>
+        <String>ref@MSF-F-1968</String>
+        <String>phonet-UPA@MSF-F-1968</String>
+        <String>phonol-CYR@MSF-F-1968</String>
+        <String>note(ref)@MSF-F-1968</String>
+        <String>orth@MSF-F-1968</String>
+        <String>word@MSF-F-1968</String>
+        <String>lemma@MSF-F-1968</String>
+        <String>morph@MSF-F-1968</String>
+        <String>pos@MSF-F-1968</String>
+        <String>lg(word)@MSF-F-1968</String>
+        <String>note(word)@MSF-F-1968</String>
+        <String>ft-eng@MSF-F-1968</String>
+        <String>ft-rus@MSF-F-1968</String>
+        <String>ft-ling@MSF-F-1968</String>
+        <String>ft-fin@MSF-F-1968</String>
+        <String>note(orth)@MSF-F-1968</String>
+        <String>lg(orth)@MSF-F-1968</String>
+        <String>phonet-IPA@MSF-F-1968</String>
+    </prefList>
+    <pref key="LayoutManager.VisibleMultiTierViewer">
+        <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
+    </pref>
+    <prefGroup key="Text-to-Speech alignment">
+        <pref key="model">
+            <String>English</String>
+        </pref>
+        <pref key="audio">
+            <String>///Volumes/langdoc/langs/kpv/kpv_izva20140325-3sledges-b/kpv_izva20140325-3sledges.wav</String>
+        </pref>
+    </prefGroup>
+    <prefList key="CommentViewer.Columns.Order">
+        <String>Start Time</String>
+        <String>End Time</String>
+        <String>Tier</String>
+        <String>Initials</String>
+        <String>Comment</String>
+        <String>Thread</String>
+        <String>Sender</String>
+        <String>Recipient</String>
+        <String>Creation Date</String>
+        <String>Modification Date</String>
+    </prefList>
+    <pref key="WaveFormViewer.ActiveURL">
+        <String>file:///Users/niko/Documents/kpv_izva/kpv_fieldwork_2014/kpv_izva20140325-3sledges/kpv_izva20140325-3sledges-4.WAV</String>
+    </pref>
+    <pref key="LayoutManager.SplitPaneDividerLocation">
+        <Int>70</Int>
+    </pref>
+    <pref key="SignalViewer.VerticalZoomLevel">
+        <Int>1000</Int>
+    </pref>
+    <prefGroup key="TranscriptionTable.TierMap">
+        <prefList key="GRAIDword@VPR-M-1948">
+            <String>GRAIDword@VPR-M-1948</String>
+            <String>GRAIDfunct@VPR-M-1948</String>
+            <String>GRAIDform@VPR-M-1948</String>
+            <String>GRAIDw-comment@VPR-M-1948</String>
+        </prefList>
+    </prefGroup>
+    <prefList key="TranscriptionTable.NonEditableTiers"/>
+    <prefGroup key="TranscriptionTable.ColumnOrder"/>
+    <pref key="TM.SignalViewer.ZoomLevel">
+        <Float>5.0</Float>
+    </pref>
+    <pref key="MediaControlVolume">
+        <Float>1.0</Float>
+    </pref>
+    <prefList key="SegmentationViewer.HiddenTiers"/>
+    <prefList key="TranscriptionTable.ColumnTypes">
+        <String>GRAIDwordT</String>
+        <String>GRAIDfunctT</String>
+        <String>GRAIDformT</String>
+        <String>GRAIDw-commentT</String>
+    </prefList>
+    <pref key="LayoutManager.SelectedTabIndex">
+        <Int>4</Int>
+    </pref>
+    <pref key="TimeLineViewer.ZoomLevel">
+        <Float>1549.0</Float>
+    </pref>
+    <pref key="SegmentationViewer.ActiveTier">
+        <String>ref@VPC-M-1993</String>
+    </pref>
+    <prefGroup key="TierColors">
+        <pref key="ref@PVR-M-1978">
+            <Object class="java.awt.Color">90,160,160</Object>
+        </pref>
+        <pref key="ref@NTP-M-1986">
+            <Object class="java.awt.Color">160,160,0</Object>
+        </pref>
+        <pref key="geo">
+            <Object class="java.awt.Color">160,0,0</Object>
+        </pref>
+        <pref key="bio">
+            <Object class="java.awt.Color">90,160,90</Object>
+        </pref>
+        <pref key="ref@VPC-M-1993">
+            <Object class="java.awt.Color">0,160,160</Object>
+        </pref>
+        <pref key="ref@MSF-F-1968">
+            <Object class="java.awt.Color">160,0,90</Object>
+        </pref>
+        <pref key="comment">
+            <Object class="java.awt.Color">160,90,0</Object>
+        </pref>
+        <pref key="ref@VPR-M-1948">
+            <Object class="java.awt.Color">160,0,0</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">0,160,0</Object>
+        </pref>
+    </prefGroup>
+    <prefList key="CommentViewer.Columns.Hidden">
+        <String>Sender</String>
+        <String>Recipient</String>
+    </prefList>
+    <pref key="FrameLocation">
+        <Object class="java.awt.Point">4,23</Object>
+    </pref>
+    <pref key="TranscriptionTable.LastActiveRow">
+        <Int>1004</Int>
+    </pref>
+    <pref key="SelectionBeginTime">
+        <Long>559614</Long>
+    </pref>
+    <pref key="LayoutManager.CurrentMode">
+        <Int>2</Int>
+    </pref>
+    <prefList key="SegmentationViewer.TierOrder">
+        <String>default</String>
+        <String>part</String>
+        <String>geo</String>
+        <String>bio</String>
+        <String>comment</String>
+        <String>ref@S1</String>
+        <String>ref@MSF-F-</String>
+        <String>ref@VPC-M-1993</String>
+        <String>ref@NTP-M-1986</String>
+        <String>ref@Pasha</String>
+    </prefList>
+    <prefGroup key="TranscriptionMode.Temp.TierColors">
+        <pref key="ref@NTP-M-1986">
+            <Object class="java.awt.Color">160,160,0</Object>
+        </pref>
+        <pref key="geo">
+            <Object class="java.awt.Color">160,0,0</Object>
+        </pref>
+        <pref key="GRAIDfunct@VPR-M-1948">
+            <Object class="java.awt.Color">216,70,19</Object>
+        </pref>
+        <pref key="GRAIDw-comment@VPR-M-1948">
+            <Object class="java.awt.Color">216,70,19</Object>
+        </pref>
+        <pref key="ref@PVR-M-1978">
+            <Object class="java.awt.Color">90,160,160</Object>
+        </pref>
+        <pref key="bio">
+            <Object class="java.awt.Color">90,160,90</Object>
+        </pref>
+        <pref key="ref@VPC-M-1993">
+            <Object class="java.awt.Color">0,160,160</Object>
+        </pref>
+        <pref key="ref@MSF-F-1968">
+            <Object class="java.awt.Color">160,0,90</Object>
+        </pref>
+        <pref key="GRAIDword@VPR-M-1948">
+            <Object class="java.awt.Color">216,70,19</Object>
+        </pref>
+        <pref key="GRAIDform@VPR-M-1948">
+            <Object class="java.awt.Color">216,70,19</Object>
+        </pref>
+        <pref key="comment">
+            <Object class="java.awt.Color">160,90,0</Object>
+        </pref>
+        <pref key="ref@VPR-M-1948">
+            <Object class="java.awt.Color">160,0,0</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">0,160,0</Object>
+        </pref>
+        <pref key="GRAIDorth@VPR-M-1948">
+            <Object class="java.awt.Color">193,147,48</Object>
+        </pref>
+    </prefGroup>
+    <pref key="MediaTime">
+        <Long>562593</Long>
+    </pref>
+    <pref key="MultiTierViewer.TierSortingMode">
+        <Int>1</Int>
+    </pref>
+    <pref key="SegmentationViewer.ZoomLevel">
+        <Float>140.0</Float>
+    </pref>
+    <prefList key="TranscriptionTable.HiddenTiers"/>
+    <pref key="TimeLineViewer.ReducedTierHeight">
+        <Boolean>true</Boolean>
+    </pref>
+    <pref key="MediaControlRate">
+        <Float>1.0</Float>
+    </pref>
+    <pref key="FrameSize">
+        <Object class="java.awt.Dimension">1276,773</Object>
+    </pref>
+    <pref key="SignalViewer.ZoomLevel">
+        <Float>1549.0</Float>
+    </pref>
+    <prefGroup key="AAM-LR Phone level audio segmentation">
+        <pref key="base_url">
+            <String>http://lux17.mpi.nl/aamlr/</String>
+        </pref>
+        <pref key="source_audio">
+            <String>///Volumes/langdoc/langs/kpv/kpv_izva20140325-3sledges-b/kpv_izva20140325-3sledges.wav</String>
+        </pref>
+    </prefGroup>
+    <pref key="TranscriptionTable.LastActiveColumn">
+        <String>Type4 : GRAIDw-commentT</String>
+    </pref>
+    <pref key="MultiTierViewer.ActiveTierName">
+        <String>ref@S1</String>
+    </pref>
+    <prefGroup key="CommentViewer.Columns">
+        <pref key="Sender">
+            <Int>0</Int>
+        </pref>
+        <pref key="Modification Date">
+            <Int>75</Int>
+        </pref>
+        <pref key="Tier">
+            <Int>75</Int>
+        </pref>
+        <pref key="Creation Date">
+            <Int>75</Int>
+        </pref>
+        <pref key="Initials">
+            <Int>75</Int>
+        </pref>
+        <pref key="Start Time">
+            <Int>75</Int>
+        </pref>
+        <pref key="End Time">
+            <Int>75</Int>
+        </pref>
+        <pref key="Comment">
+            <Int>75</Int>
+        </pref>
+        <pref key="Thread">
+            <Int>75</Int>
+        </pref>
+        <pref key="Recipient">
+            <Int>0</Int>
+        </pref>
+    </prefGroup>
+    <pref key="ActiveRecognizerName">
+        <String>AAM-LR Phone level audio segmentation</String>
+    </pref>
+    <pref key="SignalViewer.StereoMode">
+        <Int>3</Int>
+    </pref>
+    <pref key="LayoutManager.ControlPanelWidth">
+        <Int>299</Int>
+    </pref>
+    <pref key="TimeScaleBeginTime">
+        <Long>562375</Long>
+    </pref>
+    <prefGroup key="TranscriptionTable.ColumnWidth">
+        <pref key="Type3">
+            <Int>209</Int>
+        </pref>
+        <pref key="Type2">
+            <Int>209</Int>
+        </pref>
+        <pref key="Type4">
+            <Int>209</Int>
+        </pref>
+        <pref key="Type1">
+            <Int>209</Int>
+        </pref>
+    </prefGroup>
+    <prefList key="MultiTierViewer.HiddenTiers">
+        <String>part</String>
+        <String>note(part)</String>
+        <String>geo</String>
+        <String>note(geo)</String>
+        <String>bio</String>
+        <String>note(bio)</String>
+        <String>comment</String>
+        <String>phonet-UPA@VPC-M-1993</String>
+        <String>phonol-CYR@VPC-M-1993</String>
+        <String>note(ref)@VPC-M-1993</String>
+        <String>morph@VPC-M-1993</String>
+        <String>pos@VPC-M-1993</String>
+        <String>lg(word)@VPC-M-1993</String>
+        <String>note(word)@VPC-M-1993</String>
+        <String>ft-eng@VPC-M-1993</String>
+        <String>ft-rus@VPC-M-1993</String>
+        <String>ft-ling@VPC-M-1993</String>
+        <String>ft-fin@VPC-M-1993</String>
+        <String>note(orth)@VPC-M-1993</String>
+        <String>lg(orth)@VPC-M-1993</String>
+        <String>phonet-IPA@VPC-M-1993</String>
+        <String>phonet-UPA@NTP-M-1986</String>
+        <String>phonol-CYR@NTP-M-1986</String>
+        <String>note(ref)@NTP-M-1986</String>
+        <String>morph@NTP-M-1986</String>
+        <String>pos@NTP-M-1986</String>
+        <String>lg(word)@NTP-M-1986</String>
+        <String>note(word)@NTP-M-1986</String>
+        <String>ft-eng@NTP-M-1986</String>
+        <String>ft-rus@NTP-M-1986</String>
+        <String>ft-ling@NTP-M-1986</String>
+        <String>ft-fin@NTP-M-1986</String>
+        <String>note(orth)@NTP-M-1986</String>
+        <String>lg(orth)@NTP-M-1986</String>
+        <String>phonet-IPA@NTP-M-1986</String>
+        <String>phonet-UPA@VPR-M-1948</String>
+        <String>phonol-CYR@VPR-M-1948</String>
+        <String>note(ref)@VPR-M-1948</String>
+        <String>morph@VPR-M-1948</String>
+        <String>pos@VPR-M-1948</String>
+        <String>lg(word)@VPR-M-1948</String>
+        <String>note(word)@VPR-M-1948</String>
+        <String>ft-eng@VPR-M-1948</String>
+        <String>ft-rus@VPR-M-1948</String>
+        <String>ft-ling@VPR-M-1948</String>
+        <String>ft-fin@VPR-M-1948</String>
+        <String>note(orth)@VPR-M-1948</String>
+        <String>lg(orth)@VPR-M-1948</String>
+        <String>phonet-IPA@VPR-M-1948</String>
+        <String>phonet-UPA@MSF-F-1969</String>
+        <String>phonol-CYR@MSF-F-1969</String>
+        <String>note(ref)@MSF-F-1969</String>
+        <String>morph@MSF-F-1969</String>
+        <String>pos@MSF-F-1969</String>
+        <String>lg(word)@MSF-F-1969</String>
+        <String>note(word)@MSF-F-1969</String>
+        <String>ft-eng@MSF-F-1969</String>
+        <String>ft-rus@MSF-F-1969</String>
+        <String>ft-ling@MSF-F-1969</String>
+        <String>ft-fin@MSF-F-1969</String>
+        <String>note(orth)@MSF-F-1969</String>
+        <String>lg(orth)@MSF-F-1969</String>
+        <String>phonet-IPA@MSF-F-1969</String>
+        <String>phonet-UPA@PVR-M-1978</String>
+        <String>phonol-CYR@PVR-M-1978</String>
+        <String>note(ref)@PVR-M-1978</String>
+        <String>morph@PVR-M-1978</String>
+        <String>pos@PVR-M-1978</String>
+        <String>lg(word)@PVR-M-1978</String>
+        <String>note(word)@PVR-M-1978</String>
+        <String>ft-eng@PVR-M-1978</String>
+        <String>ft-rus@PVR-M-1978</String>
+        <String>ft-ling@PVR-M-1978</String>
+        <String>ft-fin@PVR-M-1978</String>
+        <String>note(orth)@PVR-M-1978</String>
+        <String>lg(orth)@PVR-M-1978</String>
+        <String>phonet-IPA@PVR-M-1978</String>
+    </prefList>
+    <pref key="LayoutManager.MediaAreaHeight">
+        <Int>188</Int>
+    </pref>
+    <pref key="ActiveAudioRecognizerName">
+        <String>Text-to-Speech alignment</String>
+    </pref>
+    <pref key="SelectionEndTime">
+        <Long>564579</Long>
+    </pref>
+</preferences>
