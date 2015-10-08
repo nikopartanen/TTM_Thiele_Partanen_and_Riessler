@@ -1,5 +1,12 @@
 # CC-BY Hanna Thiele & Niko Partanen 2015
 # R package FRelan can be installed with the following commands
+
+# We load all the packages in the beginning. FRelan is not available in CRAN,
+# so one has to install it with devtools. The package is used to parse ELAN
+# tiers into an R dataframe.
+
+# https://github.com/langdoc/FRelan 
+
 # library(devtools)
 # install_github(repo = "FRelan", username = "langdoc")
 
@@ -8,9 +15,12 @@ library(plyr)
 library(dplyr)
 library(readr)
 library(zoo)
+library(ggplot2)
 
 
 read_graid <- function(file){
+        
+        # Here we parse the tiers we want
         
         graid_funct <- read_tier(eaf_file = file, 
                                  tier = "GRAIDfunctT") %>% 
@@ -29,10 +39,14 @@ read_graid <- function(file){
                 tbl_df %>%
                 select(graid_form)
         
+        # Those tiers are merged into their own data frame
+        
         graid <- cbind(graid_token, graid_funct, graid_form) %>% tbl_df
         
+        # We copy the sentence boundary marking and numerate the sentences
+        
         graid[graid$Token == "#",]$graid_funct <- "#"
-        # graid[graid$Token == ",",]$graid_funct <- ","
+
         graid[grep(".+#(.+)?", graid$Token),]$graid_funct <- "#"
         
         graid$nr <- NA
@@ -43,7 +57,7 @@ read_graid <- function(file){
         graid$nr <- na.locf(graid$nr)
         
         
-        #determining a token's position relative to the predicate within the same clause
+        # This is determining a token's position relative to the predicate within the same clause
         graid$position <- "unknown"
         graid[graid$graid_funct == "#",]$position <- "#"
         graid[graid$graid_funct == "pred",]$position <- "pred"
@@ -65,7 +79,9 @@ read_graid <- function(file){
         
         ##### Weight part
         
-        ###determining a token's phrase weight - heads of NPs get weight according do the number of "ln" items that precede them directly ("rn" items have not been implemented yet, since they don't seem to occur in Kildin Saami), Pronouns and adverbs get weight 1,
+        ### This is determining a token's phrase weight - heads of NPs get weight according do the number of "ln" items that precede them directly ("rn" items have not been implemented yet, since they don't seem to occur in Kildin Saami), Pronouns and adverbs get weight 1. 
+        
+        ### (Note for Niko: Hanna has a version that takes "rn" into account, add that!)
         
         graid$phraseWeight <- 0
         graid[grepl("^np", graid$graid_form),]$phraseWeight <- 1
@@ -91,8 +107,9 @@ read_graid <- function(file){
         graid
 }
 
-# This parses the ELAN files
+# This parses the ELAN files using the function defined above
 # We select the parts which are thoroughly annotated and also checked over
+# The number there also is a convenient work-in-progress way to keep some track
 
 vpr <- read_graid(file = "./kpv/kpv_izva20140325-3sledges-b.eaf")
 vpr <- vpr[1:1161,]
@@ -128,7 +145,7 @@ graid$p_marking <- gsub("accusativeс", "accusative", graid$p_marking)
 graid$position <- as.factor(graid$position)
 graid$position <- factor(graid$position, levels = c("prepred", "postpred", "pred", "unknown", "#"))
 
-library(ggplot2)
+# The plots are made here.
 
 p_g_no_mode <- ggplot(data = graid %>% 
                               filter(grepl("^(p|g|g_vic)$", graid_funct)) %>%
