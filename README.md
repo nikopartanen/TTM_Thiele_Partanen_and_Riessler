@@ -1,0 +1,3 @@
+# Hanna Thiele & Niko Partanen, TTM, Lyon 8.10.2015
+
+This repository contains some of the data used by Hanna Thiele and Niko Partanen in their presentation at 8.10.2015 in Lyon Transalpine Typology Meeting 2015. For the copyright reasons we have not provided the Kildin Saami data, but the Komi data is available with CC-BY licence. The spoken data is collected and annotated in Izhva Komi Documentation Project funded by Kone Foundation. Both Vladimir Rochev and Maria Filippova were interviewed in March 2014 in Ižemskiy rayon of Komi Republic. The written data consists of portions from Ivan Belyx's and Valentin Chuprov's works, which have both been published online earlier.
