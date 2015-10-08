@@ -134,12 +134,6 @@ graid <- rbind(vpr, mvf, iib, vtc)
 graid$phraseWeight <- as.factor(graid$phraseWeight)
 graid$phraseWeight <- gsub("(3|4|5|6)", "3+", graid$phraseWeight)
 
-# This marks the accusative types — not relevant now, but still interesting
-
-graid$p_marking <- gsub("(.+(сӧ|сэ|тӧ|тэ|эс|ес|ӧс)$|менэ|менӧ|тэнэ|тэнӧ|сіе|сійӧ)", "accusative", graid$Token)
-graid$p_marking <- gsub("^[^accusative]*$", "nominative", graid$p_marking)
-graid$p_marking <- gsub("accusativeс", "accusative", graid$p_marking)
-
 # This sets the factor levels again
 
 graid$position <- as.factor(graid$position)
