@@ -1,0 +1,32 @@
+---
+bibliography: /Users/niko/FRibliography/bibtex/FRibliography.bib
+classoption: landscape
+csl: chicago-author-date.csl
+mainfont: Georgia
+monofont: Charis SIL
+nocite: |
+  @leinonen2002a
+  @leinonen2009a
+  @baker-r1985a
+  @wilbur2014a
+  @feist2010a
+  @korhonen-m1981a
+  @kittilaEtAl2011a
+  @ylikoski2011a
+  @haigEtAl2014a
+  @tallerman2015a
+  @sammallahti1998b
+  @klumpp2014a
+  @riesler2007a
+  @haigEtAl2014b
+  @kulonen2002a
+output:
+  word_document: default
+  pdf_document:
+    keep_tex: yes
+    latex_engine: xelatex
+  html_document: default
+sansfont: Calibri Light
+---
+
+## References
